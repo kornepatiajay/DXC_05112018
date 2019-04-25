@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_286419_mercedes.car_bookings_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>car_bookings_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-25 07:49:26</sys_created_on>
+        <sys_id>1536a8151b4133009f0a2f86ec4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_286419_mercedes.car_bookings_user</sys_name>
+        <sys_package display_value="Mercedes" source="x_286419_mercedes">157d98591b0133009f0a2f86ec4bcb0e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mercedes">157d98591b0133009f0a2f86ec4bcb0e</sys_scope>
+        <sys_update_name>sys_user_role_1536a8151b4133009f0a2f86ec4bcb69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-25 07:49:26</sys_updated_on>
+    </sys_user_role>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Car Bookings" max_length="40" name="x_286419_mercedes_car_bookings" type="collection">
+        <element choice="1" default="None" label="Car Model" max_length="100" name="car_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="A-Class" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="B-Class" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="C-Class" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="M-Class" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="GLA" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="AMG" sequence="600" value="6"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" default="None" label="Priority" mandatory="true" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="HIgh" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Medium" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Low" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
